@@ -2,27 +2,45 @@
 header {
     height: 200px;
     border-top: 1px solid #d5d5d5;
+    border-bottom: 1px solid #d5d5d5;
     padding-top:10px;
-    margin-bottom:10px;
+    padding-bottom:80px;
     position: relative;
 }
 
-header h1, header h4 {
+header h1, header h4, header h5 {
   position: relative;
-  top: 18px;
   left: 10px;
 }
 header h1{
 	font-size: 30px;
+	top: 18px;
+}
+header h4 {
+	top: 8px;
+	bottom: 0px;
+	font-size: 20px;
+    margin: 0px;
+	margin-bottom: 15px;
+}
+header h5 {
 }
 
-header h4 {
-	font-size: 20px;
+.personalData{
+	top: 1px;
+	margin: 7px;
+	font-size: 17px;
+}
+
+.personalData i{
+	padding-right: 4px;
 }
 
 .photo {
     float: left;
     margin-right: 15px;
+	max-width: 270px;
+	max-height: 270px;
 }
 
 body {
@@ -30,4 +48,15 @@ body {
     width: 70%;
     min-width:1000px; 
 	font-family: 'Lato', sans-serif;
+}
+
+footer {
+	margin-top: 60px;
+    border-top: 1px solid #d5d5d5;
+}
+
+footer ul{
+    list-style: none;
+	border: 0px;
+	padding: 0px;
 }
