@@ -39,6 +39,7 @@ header h5 {
 .photo {
     float: left;
     margin-right: 15px;
+	width: 100%;
 	max-width: 270px;
 	max-height: 270px;
 }
