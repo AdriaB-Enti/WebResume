@@ -14,22 +14,31 @@ header h1, header h4, header h5 {
 }
 header h1{
 	font-size: 30px;
-	top: 18px;
+	top: 15px;
 }
 header h4 {
-	top: 8px;
+	padding-top: 1px;
 	bottom: 0px;
 	font-size: 20px;
     margin: 0px;
-	margin-bottom: 15px;
+	margin-bottom: 4px;
+	font-weight: normal;
 }
-header h5 {
+
+header h4:first-of-type{
+	padding-top: 15px;
 }
 
 .personalData{
 	top: 1px;
 	margin: 7px;
+	padding-bottom: 12px;
 	font-size: 17px;
+	font-weight: normal;
+}
+
+.personalData:first-of-type{
+	top: 18px;
 }
 
 .personalData i{
@@ -46,9 +55,18 @@ header h5 {
 
 body {
     margin: 60px auto;
-    width: 70%;
-    min-width:1000px; 
+    width: 940px;
 	font-family: 'Lato', sans-serif;
+}
+
+main p {
+	font-size: 16px;
+	margin-top: 9px;
+	margin-bottom: 9px;
+}
+
+main h3 * {
+	font-weight: normal;
 }
 
 footer {
