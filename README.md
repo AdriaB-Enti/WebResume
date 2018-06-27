@@ -1,3 +1,3 @@
-My resume, wich you can view here:
+My Resume-Portfolio-Personal website, wich you can view here:
 
 https://adriab-enti.github.io/WebResume/
